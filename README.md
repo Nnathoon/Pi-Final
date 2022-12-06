@@ -13,7 +13,8 @@ Materials needed for this project.
 
 The diagram below depicts how the project is configured. (The first bread board represents the Raspberry Pi and the corresponding GPIO pins)
 
-![[tinkercad project.png]]
+![tinkercad project](https://user-images.githubusercontent.com/116108477/206003143-f40c036b-73bf-4941-9a85-4ec682858eb7.png)
+
 
 Remember to remove any power from the raspberry pi when moving wires to and from different GPIO pins.
 
