@@ -1,4 +1,4 @@
-# Pi-FinalThe following instructions listed below are for creating a two player reaction based game. Included below are the materials needed as well as the code that will be needed to make the game function. The goal of the game is to see which player can press their button the fastest after the LED in the middle goes off.
+The following instructions listed below are for creating a two player reaction based game. Included below are the materials needed as well as the code that will be needed to make the game function. The goal of the game is to see which player can press their button the fastest after the LED in the middle goes off.
 
 ![IMG_5907](https://user-images.githubusercontent.com/116108477/206002504-6e8db2b2-1d4c-414b-b67c-76e2cefd1a1a.jpg)
 
@@ -23,12 +23,14 @@ Take your bread board and two buttons, place one button on G1 and G3 and J1 and 
 
 Adding the LED to column C 15 and 16 (long end of the LED into slot C16) and adding a resistor to A15 and -10 allowing safe voltage to the LED to not burn it out.
 
-![[IMG_5908 1.jpg]]
+![IMG_5908](https://user-images.githubusercontent.com/116108477/206002632-e69a02cb-ed14-479a-b325-da0699032979.jpg)
+
 Step 2
 
 Using the two male to male jumper wires attach one wire to -1 and F1 and the other wire to -30 and F30
 
-![[IMG_5910.jpg]]
+![IMG_5910](https://user-images.githubusercontent.com/116108477/206002706-f489a137-c7dc-43db-8663-c55c336ae900.jpg)
+
 Take one of the remaining male to female jumper wires and plug the male end into F3 and the female end into the raspberry pi onto GPIO14. 
 
 Connect another jumper wire to F28 and GPIO15.
@@ -37,16 +39,19 @@ For the LED connect a jumper wire from A16 to GPIO4
 
 With the last jumper wire connect it from-19 to GPIO9 (Ground pin)
 
-![[IMG_5911.jpg]]
+![IMG_5911](https://user-images.githubusercontent.com/116108477/206002765-042b0260-5f04-42bb-b070-bad5f1465a3d.jpg)
+
 Step 3 
 
 Adding the code for the reaction game requires you to use a Linux based machine creating a python file that is executable through the terminal.  to create a new file through the nano editor in the terminal type
 "nano projectnamehere.py" the file extension ".py" indicates that this is a python file and is executable through python. Be sure to note your project name so you can make edits or changes at a later date and to run the script for the game.
 
-![[IMG_5912 1.jpg]]
+![IMG_5912](https://user-images.githubusercontent.com/116108477/206002813-403181fc-ff57-4806-a735-aa53de8b8e55.jpg)
+
 After the project python file has been created you and can start typing in the necessary code. You can copy the code from the screenshots below.
 
-![[IMG_5904.jpg]]
+![IMG_5904](https://user-images.githubusercontent.com/116108477/206002857-597a8125-3bdb-4040-b400-6bff58dd2cf1.jpg)
+
 
 Lines 1 and 2 are importing rules to make the LED and button function according to different rules. importing the sleep function enables time specified increments to have the LED on or off.
 
